@@ -1,0 +1,146 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	background-image: url(../img/44714750_2300033370323443_5618766505429696512_o-2000x1200.jpg);
+	font-family: "Microsoft JhengHei";
+}
+
+.wrap {
+	width: 570px;
+	background-color: rgba(0,0,0,0.6);
+  	background-repeat: no-repeat;
+	margin:0 auto;
+	margin-top: 100px;
+	padding: 20px;
+	font-weight: bold;
+	overflow: hidden;
+	border-radius: 30px;
+}
+.top h1{
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+}
+.textcom .text{
+	width: 450px;
+	height: 40px;
+	font-size: 25px;
+	float: left;
+	text-indent: 20px;
+	border-radius: 30px;
+	opacity: 0.5;
+	border: 2px solid #fff;
+	outline: none;
+}
+.textcom li{
+	float: left;
+	margin:10px 5px 10px 5px;
+}
+.textcom .add{
+	background-image: url('../img/plus.png');
+	background-size: 40px 40px;
+	background-repeat: no-repeat;
+	width:40px;
+	height: 40px;
+	border-radius: 10px;
+	outline: none;
+	background-color: gray;
+	border: gray;
+
+}
+.textcom .deleAll{
+	background-image: url('../img/rubbish-bin.png');
+	background-size: 40px 40px;
+	background-repeat: no-repeat;
+	width:40px;
+	height: 40px;
+	border-radius: 10px;
+	outline: none;
+	background-color: gray;
+	border: gray;
+}
+.com li{
+	width: 540px;
+	background-color: #fff;
+	font-size: 35px;
+	padding:5px;
+    display:inline;
+    margin-top: 10px;
+    border-radius: 30px;
+    text-indent: 10px;
+    opacity: 0.5;
+    float: left;
+}
+.com .dele {
+	background-image: url('../img/eraser.png');
+	background-size: 36px 36px;
+	background-repeat: no-repeat;
+	width:36px;
+	height: 36px;
+	display:block;
+    text-indent: 100%;
+    overflow: hidden;
+    float: right;
+    border-radius: 90px;
+    background-color: gray;
+}
+.textcom .add:hover{
+	background-color: #00B800; 
+}
+.textcom .deleAll:hover{
+	background-color: 	#ff5151;
+}
+.textcom .text:focus{
+	background-color: gray;
+	opacity: 0.8;
+}
+.com .dele:hover{
+	background-color: #550094;
+}
