@@ -84,7 +84,7 @@ body {
 	margin:10px 5px 10px 5px;
 }
 .textcom .add{
-	background-image: url('https://github.com/dxza9xz9/todolist/blob/master/plus.png');
+	background-image: url(https://github.com/dxza9xz9/todolist/blob/master/plus.png);
 	background-size: 40px 40px;
 	background-repeat: no-repeat;
 	width:40px;
