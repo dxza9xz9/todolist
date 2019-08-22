@@ -48,7 +48,7 @@ table {
 }
 
 body {
-	background-image: url(../44714750_2300033370323443_5618766505429696512_o-2000x1200.jpg);
+	background-image: url(44714750_2300033370323443_5618766505429696512_o-2000x1200.jpg);
 	font-family: "Microsoft JhengHei";
 }
 
@@ -84,7 +84,7 @@ body {
 	margin:10px 5px 10px 5px;
 }
 .textcom .add{
-	background-image: url('../plus.png');
+	background-image: url('plus.png');
 	background-size: 40px 40px;
 	background-repeat: no-repeat;
 	width:40px;
@@ -96,7 +96,7 @@ body {
 
 }
 .textcom .deleAll{
-	background-image: url('../rubbish-bin.png');
+	background-image: url('rubbish-bin.png');
 	background-size: 40px 40px;
 	background-repeat: no-repeat;
 	width:40px;
@@ -119,7 +119,7 @@ body {
     float: left;
 }
 .com .dele {
-	background-image: url('../eraser.png');
+	background-image: url('eraser.png');
 	background-size: 36px 36px;
 	background-repeat: no-repeat;
 	width:36px;
